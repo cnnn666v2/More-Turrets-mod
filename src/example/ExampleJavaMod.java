@@ -17,7 +17,7 @@ public class ExampleJavaMod extends Mod{
         //listen for game load event
         Events.on(ClientLoadEvent.class, e -> {
             //show dialog upon startup
-            Time.runTask(10f, () -> {
+            Time.runTask(180f, () -> {
                 BaseDialog dialog = new BaseDialog("frog");
                 dialog.cont.add("behold").row();
                 //mod sprites are prefixed with the mod name (this mod is called 'example-java-mod' in its config)

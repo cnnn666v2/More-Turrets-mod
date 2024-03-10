@@ -1,12 +1,24 @@
-type: ItemTurret
-name: Jajco
+type: powerTurret
+name: t1
 description: zabij sie
-
+health: 250
+size: 1
+reload: 10
+range: 200
+recoil: 10
+shootSound: flame
+hasPower: true
+targetGround: true
+targetAir: false
+consumes: [
+    power: 0.6
+]
+damage: 5
 category: turret
 requirements: [
   sand/5
 ]
 alwaysUnlocked: true
 research: {
-  parent: 1a-core-dust
+  parent: mender
 }

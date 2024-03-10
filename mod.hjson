@@ -8,7 +8,7 @@ name: "more-turrets-cnnn666"
 author: "Cnnn666"
 
 #the fully qualified main class of the mod
-main: "example.ExampleJavaMod"
+main: "cnnn666.MoreTurrets"
 
 #the mod description as seen in the mod dialog
 description: "A mindustry mod that adds new turrets to the game!"

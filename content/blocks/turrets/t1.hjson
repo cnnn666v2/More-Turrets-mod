@@ -1,0 +1,12 @@
+type: ItemTurret
+name: Jajco
+description: zabij sie
+
+category: turret
+requirements: [
+  sand/5
+]
+alwaysUnlocked: true
+research: {
+  parent: 1a-core-dust
+}

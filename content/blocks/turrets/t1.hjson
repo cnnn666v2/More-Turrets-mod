@@ -1,24 +1,32 @@
-type: powerTurret
-name: t1
-description: zabij sie
-health: 250
+type: PowerTurret
 size: 1
-reload: 10
-range: 200
-recoil: 10
-shootSound: flame
-hasPower: true
-targetGround: true
-targetAir: false
-consumes: [
-    power: 0.6
-]
-damage: 5
+health: 250
+range: 160
+rotateSpeed: 1.5
+reload: 25
+shoot: {
+  type: ShootBarrel
+  shots: 3
+  shotDelay: 3
+   barrels: [
+    8, 0, 0, 
+    0, 0, 0, 
+    -8, 0, 0
+  ]
+}
+consumes: {
+  power: 0.6
+} 
+recoil: 5
+shootSound: laser
+shootType: {
+  type: LaserBulletType
+  length: 70
+  width: 15
+  damage: 50
+}
 category: turret
 requirements: [
-  sand/5
+    copper/50
+    lead/10
 ]
-alwaysUnlocked: true
-research: {
-  parent: mender
-}

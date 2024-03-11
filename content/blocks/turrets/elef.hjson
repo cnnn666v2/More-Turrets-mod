@@ -7,7 +7,7 @@ health: 150
 // Turret
 range: 100
 rotateSpeed: 1.5
-reload: 4
+reload: 35
 recoil: 5
 shoot: {
   //type: ShootBarrel

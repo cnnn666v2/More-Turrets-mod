@@ -1,0 +1,46 @@
+// Main
+type: PowerTurret
+name: Ele F
+description: Ele F is a power turret designed to be a cheaper version of Arc. It's the first iteration of the Ele series.
+size: 1
+health: 150
+// Turret
+range: 100
+rotateSpeed: 1.5
+reload: 4
+recoil: 5
+shoot: {
+  type: ShootBarrel
+  shots: 1
+  /*shotDelay: 3
+   barrels: [
+    8, 0, 0, 
+    0, 0, 0, 
+    -8, 0, 0
+  ]*/
+}
+shootSound: laser
+shootType: {
+  type: LaserBulletType
+  length: 85
+  width: 20
+  damage: 30
+}
+// Misc
+consumes: {
+  power: 0.5
+}
+// Research/Build
+category: turret
+research: {
+  parent: arc
+  requirements: [
+    copper/200
+    lead/125
+  ]
+}
+//researchCostMultiplier: 0.5
+requirements: [
+    copper/40
+    lead/30
+]

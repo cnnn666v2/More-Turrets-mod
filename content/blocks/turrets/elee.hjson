@@ -35,7 +35,7 @@ consumes: {
 // Research/Build
 category: turret
 research: {
-  parent: arc
+  parent: elec
   requirements: [
     copper/450
     lead/300

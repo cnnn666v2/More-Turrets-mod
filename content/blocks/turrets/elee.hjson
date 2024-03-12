@@ -1,7 +1,7 @@
 // Main
 type: PowerTurret
 name: Ele E
-description: Ele E is the second iteration of Ele series. It offers better performance than Arc but at a cos of increased price
+description: Ele E is the second iteration of Ele series. It offers better performance than Arc but at a cost of increased price
 size: 1
 health: 350
 // Turret
@@ -35,7 +35,7 @@ consumes: {
 // Research/Build
 category: turret
 research: {
-  parent: elec
+  parent: elef
   requirements: [
     copper/450
     lead/300

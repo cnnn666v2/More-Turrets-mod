@@ -23,7 +23,7 @@ targetAir: false
 targetGround: true
 // Misc
 consumes: {
-  power: 0.6
+  power: 0.8
 }
 // Research/Build
 category: turret

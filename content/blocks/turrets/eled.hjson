@@ -29,14 +29,14 @@ targetAir: false
 targetGround: true
 // Misc
 consumes: {
-  power: 0.9
-  items: [
+  power: 1.2
+  /*items: [
   {
     item: coal
     amount: 2
     optional: true
     booster: true
-  }]
+  }]*/
 }
 // Research/Build
 category: turret

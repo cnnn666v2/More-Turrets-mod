@@ -1,0 +1,49 @@
+// Main
+type: PowerTurret
+name: Ele E
+description: Ele E is the second iteration of Ele series. It offers better performance than Arc but at a cos of increased price
+size: 1
+health: 350
+// Turret
+range: 140
+rotateSpeed: 2
+reload: 65
+recoil: 3
+shoot: {
+  //type: ShootBarrel
+  shots: 1
+  /*shotDelay: 3
+   barrels: [
+    8, 0, 0, 
+    0, 0, 0, 
+    -8, 0, 0
+  ]*/
+}
+shootSound: laser
+shootType: {
+  type: LaserBulletType
+  length: 130
+  width: 16
+  damage: 25
+}
+targetAir: false
+targetGround: true
+// Misc
+consumes: {
+  power: 0.6
+}
+// Research/Build
+category: turret
+research: {
+  parent: arc
+  requirements: [
+    copper/450
+    lead/300
+    graphite/100
+  ]
+}
+//researchCostMultiplier: 0.5
+requirements: [
+    copper/100
+    lead/80
+]

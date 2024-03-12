@@ -8,16 +8,9 @@ health: 350
 range: 140
 rotateSpeed: 2
 reload: 65
-recoil: 3
+//recoil: 3
 shoot: {
-  //type: ShootBarrel
   shots: 1
-  /*shotDelay: 3
-   barrels: [
-    8, 0, 0, 
-    0, 0, 0, 
-    -8, 0, 0
-  ]*/
 }
 shootSound: laser
 shootType: {

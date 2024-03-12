@@ -1,0 +1,58 @@
+// Main
+type: PowerTurret
+name: Ele D
+description: Ele D is the third iteration of Ele series. This generation introduces double barrels as well as increased damage.
+size: 1
+health: 450
+// Turret
+range: 160
+rotateSpeed: 1.5
+reload: 70
+//recoil: 1
+shoot: {
+  type: ShootBarrel
+  shots: 2
+  shotDelay: 5
+   barrels: [
+    2, 0, 0, 
+    -2, 0, 0, 
+  ]
+}
+shootSound: laser
+shootType: {
+  type: LaserBulletType
+  length: 155
+  width: 10
+  damage: 45
+}
+targetAir: false
+targetGround: true
+// Misc
+consumes: {
+  power: 0.9
+  items: [
+  {
+    item: coal
+    amount: 2
+    optional: true
+    booster: true
+  }]
+}
+// Research/Build
+category: turret
+research: {
+  parent: elee
+  requirements: [
+    copper/900
+    lead/700
+    graphite/550
+    silicon/450
+  ]
+}
+//researchCostMultiplier: 0.5
+requirements: [
+    copper/200
+    lead/150
+    graphite/120
+    silicon/50
+]

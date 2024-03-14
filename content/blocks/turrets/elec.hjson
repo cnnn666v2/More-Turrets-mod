@@ -1,0 +1,55 @@
+// Main
+type: PowerTurret
+name: Ele C
+description: Ele C is the next generation of Ele turrets. It comes double in size with double the stats.
+size: 2
+health: 800
+// Turret
+range: 220
+rotateSpeed: 1.7
+reload: 100
+//recoil: 1
+shoot: {
+  type: ShootBarrel
+  shots: 2
+  shotDelay: 10
+   barrels: [
+    4, 0, 0, 
+    -4, 0, 0, 
+  ]
+}
+shootSound: laser
+shootType: {
+  type: LaserBulletType
+  length: 215
+  width: 25
+  damage: 115
+}
+targetAir: false
+targetGround: true
+// Misc
+coolantMultiplier: 3
+consumes: {
+  power: 2
+  coolant: {
+    amount: 1.5
+  }
+}
+// Research/Build
+category: turret
+research: {
+  parent: eled
+  requirements: [
+    copper/1400
+    lead/1200
+    graphite/800
+    silicon/650
+  ]
+}
+//researchCostMultiplier: 0.5
+requirements: [
+    copper/500
+    lead/500
+    graphite/400
+    silicon/250
+]

@@ -28,7 +28,7 @@ shootType: {
 targetAir: false
 targetGround: true
 // Misc
-coolantMultiplier: 5
+coolantMultiplier: 1.5
 consumes: {
   power: 1.2
   coolant: {

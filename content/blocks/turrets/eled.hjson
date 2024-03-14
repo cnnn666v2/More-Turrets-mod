@@ -28,15 +28,12 @@ shootType: {
 targetAir: false
 targetGround: true
 // Misc
+coolantMultiplier: 5
 consumes: {
   power: 1.2
-  /*items: [
-  {
-    item: coal
-    amount: 2
-    optional: true
-    booster: true
-  }]*/
+  coolant: {
+    amount: 0.5
+  }
 }
 // Research/Build
 category: turret
